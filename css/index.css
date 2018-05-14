@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family:ArchivoBlack,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body, html {
+    color: #fff;
+
+    background-color: #7289DA;
+	background-image: url("https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png");
+	background-repeat: repeat;
+    margin-top: 20px;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+div {
+    text-align: center;
+}
+h5{
+	text-decoration:none;
+}
+dbl{
+	color: red;
+}
+
+h3{
+	display: inline;
+}
+h2 {
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: -1rem;
+    line-height: 1.5em;
+    font-size: 50px;
+	text-shadow: 2px 2px #85929E;
+    font-weight: 500;
+	animation: float 5s ease-in-out infinite;
+    background-color: transparent;
+}
+p {
+    margin: 2em 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 1px 18px;
+}
+form {
+    margin: 2em 0;
+	text-shadow: 0.5px 0.5px #85929E;
+}
+
+input {
+    font-size: 1rem;
+}
+
+	
+file {
+	    margin: 5px 16px;
+}
+
+label, input[type=submit] {
+    padding: 8px 18px;
+    margin: 5px 16px;
+    background-color: transparent;
+    border: 3px solid #5E5D94;
+    font-weight: 600;
+    transition: border 0.1s ease;
+    color: #fff;
+    cursor: pointer;
+	position: 50% 50%;
+}
+label:hover, input[type=submit]:hover {
+    border: 3px solid white;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+.link {
+    background-color: #6274af;
+    border-radius: 0px 10px 0px 10px;
+    line-height: 49px;
+    padding: 12px;
+    text-decoration: none;
+    vertical-align: super;
+    color: #fff;
+    -moz-transition: all 1s ease;
+}
+
+.link:hover{
+  color:#000;
+  background-color: #fff;
+}
+upload{
+	    display: block;
+}
+
+input[type=number] {
+  color: rgb(darkBlurple);
+  text-align: center;
+  width: 95px;
+  border-radius:10px;
+  margin: 2px;
+  text-shadow: 0.5px 0.5px #85929E;
+  line-height: 27px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  width: 30px;
+  height: 30px;
+}
