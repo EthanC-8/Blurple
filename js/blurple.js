@@ -6,7 +6,6 @@
             };
             reader.readAsDataURL(file);
           }).then((image) => {
-            /* FUCK THIS SHIT */
             var darkBlurple = [78, 93, 148];
             var blurple = [114, 137, 218];
             var greyple = [153, 170, 181];
